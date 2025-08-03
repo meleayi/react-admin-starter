@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth button transitions */
+.ant-btn {
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Custom focus styles */
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #800080 !important;
+  box-shadow: 0 0 0 2px rgba(128, 0, 128, 0.2) !important;
+}
+
+/* Link hover effects */
+a:hover {
+  color: #800080b3 !important;
+  text-decoration: underline !important;
+}
+
+/* Force primary button styles */
+.ant-btn.ant-btn-primary {
+  background: #800080 !important;
+  border-color: #800080 !important;
+  color: white !important;
+}
+
+/* Hover state */
+.ant-btn.ant-btn-primary:hover {
+  background: #9a009a !important;
+  border-color: #9a009a !important;
+  opacity: 0.9;
+}
+
+/* Active state */
+.ant-btn.ant-btn-primary:active {
+  background: #6a006a !important;
+  border-color: #6a006a !important;
+}
+
+/* Focus state */
+.ant-btn.ant-btn-primary:focus {
+  background: #800080 !important;
+  border-color: #800080 !important;
+}
